@@ -1,0 +1,63 @@
+body{
+    max-width: 1020px;
+    margin: 0 auto;
+    background-color: darkslategray;
+}
+textarea{
+    width: 900px;
+    height: 500px;
+    border: 1px solid black;
+    word-wrap: break-word;
+    resize: none;  
+}
+.keyboard{
+    width: 925px;
+    height: 31vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: baseline;
+    align-items: stretch;
+    flex-wrap: wrap;
+    
+}
+.key{
+    width: 60px;
+    height: 60px;
+    border: 5px solid cyan;
+    text-align:center;
+    background-color: dodgerblue;
+    color: #ffffff;
+}
+.activeKey{
+    border-radius: 80%;
+    color: #4a494d;
+    background-color: rgb(126, 184, 241);  
+}
+.active{
+    border-radius: 80%;
+    color: #4a494d;
+    background-color: rgb(126, 184, 241);  
+}
+.key:hover{
+    border-radius: 50%;
+    color: #4a494d;
+    background-color: rgb(126, 184, 241);    
+}
+.clearfix {
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.special{
+    width: 120px;
+}
+    .special:hover{
+    border-radius: 20%;
+}
+#keyDel,#keyEnter{
+    width:60px;
+}
+#keySpace{
+    width: 420px;
+}

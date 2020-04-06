@@ -4,8 +4,8 @@ body{
     background-color: darkslategray;
 }
 textarea{
-    width: 900px;
-    height: 500px;
+    width: 895px;
+    height: 400px;
     border: 1px solid black;
     word-wrap: break-word;
     resize: none;  
@@ -55,9 +55,12 @@ textarea{
     .special:hover{
     border-radius: 20%;
 }
-#keyDel,#keyEnter{
+#delete,#enter{
     width:60px;
 }
-#keySpace{
+#space{
     width: 420px;
+}
+#shiftleft,#shiftright{
+    width: 120px;
 }

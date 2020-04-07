@@ -1,0 +1,14 @@
+{   
+    "env":{
+        "browser":true,
+        "node":true,
+        "es6":true
+    },
+    "rules": {
+        "no-restricted-syntax": ["error", "ForInStatement", "LabeledStatement", "WithStatement"],
+        "no-plusplus": "off",
+        "max-len":"off",
+        "linebreak-style":"off"
+    },
+    "extends":["airbnb/base"]
+}

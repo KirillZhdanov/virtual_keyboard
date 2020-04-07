@@ -1,1 +1,221 @@
-const _0x2954=['c2xhc2g=','Y29udGFpbnM=','a2V5Ym9hcmQ=','dGV4dGFyZWE=','a2V5Q29kZQ==','VmlydHVhbCBLZXlib2FyZCA8YnI+IHRvIGNoYW5nZSBsYW5nIHVzZSBDdHJsK0FsdA==','cXVvdGU=','cHJldmVudERlZmF1bHQ=','U3BhY2U=','c2hpZnRyaWdodA==','Q29udHJvbFJpZ2h0','V2lu','YWx0cmlnaHQ=','Y2xhc3NMaXN0','RGVs','bW91c2Vkb3du','Z2V0QXR0cmlidXRl','QWx0','c2hpZnRsZWZ0','dG9Mb3dlckNhc2U=','JiM5NjUwOw==','RGVsZXRl','ZGl2','YXBwZW5kQ2hpbGQ=','cmVhZE9ubHk=','cmVwbGFjZQ==','dmFsdWU=','Z2V0SXRlbQ==','aW5uZXJIVE1M','JiM5NjYwOw==','a2V5ZG93bg==','QWx0TGVmdA==','cXVlcnlTZWxlY3Rvcg==','Q3RybA==','YnJhY2tldHJpZ2h0','Q2Fwc0xvY2s=','YWN0aXZl','YWN0aXZlS2V5','Q29udHJvbExlZnQ=','Ym9keQ==','QmFja3NwYWNl','dHJ1ZQ==','YXJyb3d1cA==','Y2xhc3NOYW1l','c2VsZWN0aW9uU3RhcnQ=','Y29udHJvbGxlZnQ=','U2hpZnRMZWZ0','U2hpZnQ=','a2V5','cmVwZWF0','Z2V0RWxlbWVudEJ5SWQ=','c2l6ZQ==','c3BsaWNl','bGFuZw==','am9pbg==','YWx0bGVmdA==','U2hpZnRSaWdodA==','YWRkRXZlbnRMaXN0ZW5lcg==','cGVyaW9k','c3BlY2lhbA==','YXJyb3dsZWZ0','ZXF1YWw=','YXJyb3dkb3du','YnV0dG9u','aGFz','YXJyb3dyaWdodA==','YWRk','bWludXM=','QWx0UmlnaHQ=','VGFi','LmtleWJvYXJk','ZGF0YS12YWx1ZQ==','Zm9jdXM=','Y29udHJvbHJpZ2h0','Y3JlYXRlRWxlbWVudA==','c2VtaWNvbG9u','ZGVsZXRl','Y29kZQ==','JiM5NjY4Ow==','Y29tbWE=','c3BsaXQ=','dGFyZ2V0','YnJhY2tldGxlZnQ=','RW50ZXI=','YmFja3F1b3Rl','Y2xlYXJmaXg=','c2V0SXRlbQ==','cmVtb3Zl','bGVuZ3Ro','YXBwZW5k','YmFja3NsYXNo','dG9VcHBlckNhc2U=','ZGlnaXQ='];(function(_0x42a7b6,_0x295424){const _0x40c723=function(_0x398fdb){while(--_0x398fdb){_0x42a7b6['push'](_0x42a7b6['shift']());}};_0x40c723(++_0x295424);}(_0x2954,0x17c));const _0x40c7=function(_0x42a7b6,_0x295424){_0x42a7b6=_0x42a7b6-0x0;let _0x40c723=_0x2954[_0x42a7b6];if(_0x40c7['hCqrzs']===undefined){(function(){let _0x36c37a;try{const _0x3896b=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');');_0x36c37a=_0x3896b();}catch(_0x5286e0){_0x36c37a=window;}const _0x3fedd7='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x36c37a['atob']||(_0x36c37a['atob']=function(_0x16d31e){const _0x428f72=String(_0x16d31e)['replace'](/=+$/,'');let _0x49dcbb='';for(let _0x3c6096=0x0,_0x14c542,_0x45e35c,_0x2b365d=0x0;_0x45e35c=_0x428f72['charAt'](_0x2b365d++);~_0x45e35c&&(_0x14c542=_0x3c6096%0x4?_0x14c542*0x40+_0x45e35c:_0x45e35c,_0x3c6096++%0x4)?_0x49dcbb+=String['fromCharCode'](0xff&_0x14c542>>(-0x2*_0x3c6096&0x6)):0x0){_0x45e35c=_0x3fedd7['indexOf'](_0x45e35c);}return _0x49dcbb;});}());_0x40c7['BNliqJ']=function(_0x372a23){const _0x3f8480=atob(_0x372a23);let _0x34dfde=[];for(let _0x48fea0=0x0,_0x49522e=_0x3f8480['length'];_0x48fea0<_0x49522e;_0x48fea0++){_0x34dfde+='%'+('00'+_0x3f8480['charCodeAt'](_0x48fea0)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x34dfde);};_0x40c7['iReTVI']={};_0x40c7['hCqrzs']=!![];}const _0x398fdb=_0x40c7['iReTVI'][_0x42a7b6];if(_0x398fdb===undefined){_0x40c723=_0x40c7['BNliqJ'](_0x40c723);_0x40c7['iReTVI'][_0x42a7b6]=_0x40c723;}else{_0x40c723=_0x398fdb;}return _0x40c723;};const _0x239c04=document[_0x40c7('0x42')]('h1');_0x239c04[_0x40c7('0x14')]=_0x40c7('0x5a');document[_0x40c7('0x1f')]['append'](_0x239c04);const _0x5c8cc7=document[_0x40c7('0x42')](_0x40c7('0x58'));_0x5c8cc7['id']=_0x40c7('0x58');_0x5c8cc7[_0x40c7('0x10')]=_0x40c7('0x21');document[_0x40c7('0x1f')][_0x40c7('0x51')](_0x5c8cc7);const _0x4c451f=document[_0x40c7('0x42')](_0x40c7('0xe'));_0x4c451f[_0x40c7('0x23')]=_0x40c7('0x57');document[_0x40c7('0x1f')][_0x40c7('0x51')](_0x4c451f);let _0x48c69d=localStorage['getItem'](_0x40c7('0x2d'))!==null?localStorage['getItem'](_0x40c7('0x2d')):(localStorage[_0x40c7('0x4e')](_0x40c7('0x2d'),'en'),'en');let _0x5d76a4=![];let _0x4f391b=![];const _0x2a9849=['`','1','2','3','4','5','6','7','8','9','0','-','=',_0x40c7('0x20'),'Tab','q','w','e','r','t','y','u','i','o','p','[',']',_0x40c7('0xd'),_0x40c7('0x1b'),'a','s','d','f','g','h','j','k','l',';','\x27','\x5c',_0x40c7('0x4b'),'Shift','z','x','c','v','b','n','m',',','.','/',_0x40c7('0xc'),_0x40c7('0x27'),_0x40c7('0x19'),_0x40c7('0x3'),_0x40c7('0x9'),_0x40c7('0x0'),_0x40c7('0x9'),_0x40c7('0x46'),_0x40c7('0x15'),'&#9658;',_0x40c7('0x19')];const _0x4fc32a=['ё','1','2','3','4','5','6','7','8','9','0','-','=','Backspace','Tab','й','ц','у','к','е','н','г','ш','щ','з','х','ъ','Delete',_0x40c7('0x1b'),'ф','ы','в','а','п','р','о','л','д','ж','э','\x5c',_0x40c7('0x4b'),_0x40c7('0x27'),'я','ч','с','м','и','т','ь','б','ю','.',_0x40c7('0xc'),_0x40c7('0x27'),_0x40c7('0x19'),_0x40c7('0x3'),_0x40c7('0x9'),_0x40c7('0x0'),_0x40c7('0x9'),_0x40c7('0x46'),'&#9660;','&#9658;',_0x40c7('0x19')];const _0x35deba=['`','1','2','3','4','5','6','7','8','9','0','-','=',_0x40c7('0x20'),'\x09','q','w','e','r','t','y','u','i','o','p','[',']',_0x40c7('0x6'),_0x40c7('0x1b'),'a','s','d','f','g','h','j','k','l',';','\x27','\x5c','\x0a',_0x40c7('0x27'),'z','x','c','v','b','n','m',',','.','/',_0x40c7('0xc'),_0x40c7('0x27'),_0x40c7('0x1e'),'',_0x40c7('0x17'),'\x20',_0x40c7('0x3c'),_0x40c7('0x46'),_0x40c7('0x15'),'&#9658;',_0x40c7('0x2')];const _0x1bedaf=['ё','1','2','3','4','5','6','7','8','9','0','-','=',_0x40c7('0x20'),'\x09','й','ц','у','к','е','н','г','ш','щ','з','х','ъ',_0x40c7('0x6'),_0x40c7('0x1b'),'ф','ы','в','а','п','р','о','л','д','ж','э','\x5c','\x0a',_0x40c7('0x27'),'я','ч','с','м','и','т','ь','б','ю','.',_0x40c7('0xc'),_0x40c7('0x27'),_0x40c7('0x1e'),'',_0x40c7('0x17'),'\x20',_0x40c7('0x3c'),_0x40c7('0x46'),_0x40c7('0x15'),'&#9658;',_0x40c7('0x2')];const _0x2dd7bd=new Set();function _0x4617f2(){for(const _0x527cb6 of _0x2dd7bd){_0x2dd7bd[_0x40c7('0x44')](_0x527cb6);}}function _0x130015(_0x10c592,_0x1a5ff9){let _0x294736=0x0;for(const _0x15917b of _0x10c592){const _0x4ecc7d=document['createElement'](_0x40c7('0x37'));_0x4ecc7d[_0x40c7('0x23')]=_0x40c7('0x28');_0x4ecc7d[_0x40c7('0x14')]=_0x15917b;if(_0x15917b===_0x40c7('0x20')||_0x15917b==='Tab'||_0x15917b===_0x40c7('0x4b')||_0x15917b===_0x40c7('0x1b')||_0x15917b===_0x40c7('0xd')||_0x15917b===_0x40c7('0x0')){_0x4ecc7d[_0x40c7('0x5')][_0x40c7('0x3a')](_0x40c7('0x33'));}if(!_0x4ecc7d['classList'][_0x40c7('0x56')](_0x40c7('0x33'))){switch(_0x294736){case 0x0:_0x4ecc7d['id']=_0x40c7('0x4c');break;case 0x1:case 0x2:case 0x3:case 0x4:case 0x5:case 0x6:case 0x7:case 0x8:case 0x9:case 0xa:_0x4ecc7d['id']=_0x40c7('0x54')+_0x2a9849[_0x294736];break;case 0xb:_0x4ecc7d['id']=_0x40c7('0x3b');break;case 0xc:_0x4ecc7d['id']=_0x40c7('0x35');break;case 0x19:_0x4ecc7d['id']=_0x40c7('0x4a');break;case 0x1a:_0x4ecc7d['id']=_0x40c7('0x1a');break;case 0x26:_0x4ecc7d['id']=_0x40c7('0x43');break;case 0x27:_0x4ecc7d['id']=_0x40c7('0x5b');break;case 0x28:_0x4ecc7d['id']=_0x40c7('0x52');break;case 0x2a:_0x4ecc7d['id']=_0x40c7('0xa');break;case 0x32:_0x4ecc7d['id']=_0x40c7('0x47');break;case 0x33:_0x4ecc7d['id']=_0x40c7('0x32');break;case 0x34:_0x4ecc7d['id']=_0x40c7('0x55');break;case 0x35:_0x4ecc7d['id']=_0x40c7('0x22');break;case 0x36:_0x4ecc7d['id']=_0x40c7('0x1');break;case 0x37:_0x4ecc7d['id']=_0x40c7('0x25');break;case 0x38:_0x4ecc7d['id']='metaleft';break;case 0x39:_0x4ecc7d['id']=_0x40c7('0x2f');break;case 0x3b:_0x4ecc7d['id']=_0x40c7('0x4');break;case 0x3c:_0x4ecc7d['id']=_0x40c7('0x34');break;case 0x3d:_0x4ecc7d['id']=_0x40c7('0x36');break;case 0x3e:_0x4ecc7d['id']=_0x40c7('0x39');break;case 0x3f:_0x4ecc7d['id']=_0x40c7('0x41');break;default:_0x4ecc7d['id']=_0x40c7('0x28')+_0x2a9849[_0x294736];}}else _0x4ecc7d['id']=_0x2a9849[_0x294736][_0x40c7('0xb')]();if(_0x294736===0xe||_0x294736===0x1c||_0x294736===0x2a||_0x294736===0x37){const _0x4edbd8=document[_0x40c7('0x42')](_0x40c7('0xe'));_0x4edbd8[_0x40c7('0x23')]=_0x40c7('0x4d');_0x4c451f[_0x40c7('0xf')](_0x4edbd8);}_0x4ecc7d['setAttribute']('data-value',_0x1a5ff9[_0x294736]);_0x4c451f[_0x40c7('0xf')](_0x4ecc7d);_0x294736++;}}function _0x268b22(){if(_0x2dd7bd[_0x40c7('0x38')](_0x40c7('0x1e'))&&_0x2dd7bd[_0x40c7('0x38')]('AltLeft')||_0x2dd7bd[_0x40c7('0x38')](_0x40c7('0x2'))&&_0x2dd7bd[_0x40c7('0x38')](_0x40c7('0x3c'))){_0x4617f2();document[_0x40c7('0x18')](_0x40c7('0x3e'))[_0x40c7('0x14')]='';if(_0x48c69d==='en'){_0x130015(_0x4fc32a,_0x1bedaf);localStorage[_0x40c7('0x4e')](_0x40c7('0x2d'),'ru');_0x48c69d=localStorage[_0x40c7('0x13')](_0x40c7('0x2d'));}else{_0x130015(_0x2a9849,_0x35deba);localStorage['setItem']('lang','en');_0x48c69d=localStorage['getItem']('lang');}}}function _0x363daa(_0x27a7f5){let _0x4d9efe=0x0;_0x27a7f5[_0x40c7('0x40')]();if(_0x27a7f5[_0x40c7('0x24')]||_0x27a7f5[_0x40c7('0x24')]==='0'){_0x4d9efe=_0x27a7f5['selectionStart'];}return _0x4d9efe;}if(localStorage['getItem']('lang')!=='ru')_0x130015(_0x2a9849,_0x35deba);else _0x130015(_0x4fc32a,_0x1bedaf);document[_0x40c7('0x31')](_0x40c7('0x16'),_0x3fad84=>{if(_0x3fad84[_0x40c7('0x59')]===0x8||_0x3fad84[_0x40c7('0x59')]===0x9||_0x3fad84[_0x40c7('0x59')]===0x12||_0x3fad84[_0x40c7('0x59')]===0x11||_0x3fad84['keyCode']===0x2e){_0x3fad84[_0x40c7('0x5c')]();}const _0x5e1940=document[_0x40c7('0x2a')](_0x3fad84[_0x40c7('0x45')][_0x40c7('0xb')]());if(_0x5e1940===null)return;if(_0x3fad84[_0x40c7('0x45')]==='ControlLeft'||_0x3fad84[_0x40c7('0x45')]==='ControlRight'||_0x3fad84[_0x40c7('0x45')]===_0x40c7('0x17')||_0x3fad84[_0x40c7('0x45')]===_0x40c7('0x3c')){_0x5e1940[_0x40c7('0x5')]['add'](_0x40c7('0x1d'));setTimeout(()=>_0x5e1940[_0x40c7('0x5')][_0x40c7('0x4f')](_0x40c7('0x1d')),0x1f4);_0x2dd7bd[_0x40c7('0x3a')](_0x3fad84[_0x40c7('0x45')]);if(_0x2dd7bd[_0x40c7('0x2b')]>0x2){_0x4617f2();}setTimeout(()=>_0x268b22(),0x1f4);return;}if(_0x3fad84[_0x40c7('0x45')]===_0x40c7('0x1b')){if(_0x3fad84[_0x40c7('0x29')])return;if(!_0x5e1940[_0x40c7('0x5')][_0x40c7('0x56')](_0x40c7('0x1c'))){_0x5e1940[_0x40c7('0x5')]['add'](_0x40c7('0x1c'));_0x5d76a4=!![];}else{_0x5e1940['classList'][_0x40c7('0x4f')](_0x40c7('0x1c'));_0x5d76a4=![];}return;}if(_0x3fad84[_0x40c7('0x45')]===_0x40c7('0x26')||_0x3fad84['code']===_0x40c7('0x30')){if(_0x3fad84['repeat'])return;if(!_0x5e1940['classList'][_0x40c7('0x56')](_0x40c7('0x1c'))){_0x5e1940[_0x40c7('0x5')][_0x40c7('0x3a')](_0x40c7('0x1c'));_0x4f391b=!![];}else{_0x5e1940[_0x40c7('0x5')][_0x40c7('0x4f')](_0x40c7('0x1c'));_0x4f391b=![];}return;}_0x5e1940[_0x40c7('0x5')][_0x40c7('0x3a')](_0x40c7('0x1d'));setTimeout(()=>_0x5e1940[_0x40c7('0x5')]['remove']('activeKey'),0x1f4);if(_0x5e1940[_0x40c7('0x8')](_0x40c7('0x3f'))===_0x40c7('0x20')){const _0x5d5a7e=_0x363daa(_0x5c8cc7);_0x5c8cc7[_0x40c7('0x14')]=_0x5d5a7e>0x0?_0x5c8cc7[_0x40c7('0x12')][_0x40c7('0x11')](_0x5c8cc7[_0x40c7('0x12')][_0x5d5a7e-0x1],''):_0x5c8cc7[_0x40c7('0x12')][_0x40c7('0x48')]('')[_0x40c7('0x2c')](0x0,_0x5c8cc7[_0x40c7('0x12')][_0x40c7('0x50')]-0x1)[_0x40c7('0x2e')]('');return;}if(_0x5e1940['getAttribute'](_0x40c7('0x3f'))===_0x40c7('0x3d')){_0x5c8cc7[_0x40c7('0x14')]+='\x09';return;}if(_0x5e1940[_0x40c7('0x8')](_0x40c7('0x3f'))===_0x40c7('0x6')){const _0x285bab=_0x363daa(_0x5c8cc7);_0x5c8cc7[_0x40c7('0x14')]=_0x285bab>0x0?_0x5c8cc7['value']['replace'](_0x5c8cc7[_0x40c7('0x12')][_0x285bab],''):_0x5c8cc7[_0x40c7('0x12')][_0x40c7('0x48')]('')['splice'](0x0,_0x5c8cc7[_0x40c7('0x12')]['length'])[_0x40c7('0x2e')]('');return;}if(_0x5d76a4&&!_0x4f391b||!_0x5d76a4&&_0x4f391b)_0x5c8cc7[_0x40c7('0x14')]+=_0x5e1940[_0x40c7('0x8')](_0x40c7('0x3f'))[_0x40c7('0x53')]();else _0x5c8cc7[_0x40c7('0x14')]+=_0x5e1940[_0x40c7('0x8')](_0x40c7('0x3f'));});document[_0x40c7('0x31')](_0x40c7('0x7'),_0x510698=>{if(_0x510698[_0x40c7('0x49')][_0x40c7('0x8')](_0x40c7('0x3f'))===_0x40c7('0x1e')||_0x510698[_0x40c7('0x49')][_0x40c7('0x8')](_0x40c7('0x3f'))==='ControlRight'||_0x510698[_0x40c7('0x49')][_0x40c7('0x8')](_0x40c7('0x3f'))===_0x40c7('0x17')||_0x510698[_0x40c7('0x49')][_0x40c7('0x8')](_0x40c7('0x3f'))===_0x40c7('0x3c')){_0x2dd7bd[_0x40c7('0x3a')](_0x510698[_0x40c7('0x49')][_0x40c7('0x8')](_0x40c7('0x3f')));if(_0x2dd7bd['size']>0x2){_0x4617f2();}_0x268b22();_0x5d76a4=![];return;}if(_0x510698[_0x40c7('0x49')][_0x40c7('0x5')]['contains'](_0x40c7('0x28'))){if(_0x510698[_0x40c7('0x49')][_0x40c7('0x8')](_0x40c7('0x3f'))===_0x40c7('0x1b')){if(!_0x510698[_0x40c7('0x49')]['classList'][_0x40c7('0x56')](_0x40c7('0x1c'))){_0x510698['target'][_0x40c7('0x5')][_0x40c7('0x3a')]('active');_0x5d76a4=!![];}else{_0x510698[_0x40c7('0x49')][_0x40c7('0x5')]['remove'](_0x40c7('0x1c'));_0x5d76a4=![];}return;}if(_0x510698['target'][_0x40c7('0x5')][_0x40c7('0x56')](_0x40c7('0x28'))){if(_0x510698['target'][_0x40c7('0x8')](_0x40c7('0x3f'))===_0x40c7('0x27')){if(!_0x510698[_0x40c7('0x49')][_0x40c7('0x5')][_0x40c7('0x56')](_0x40c7('0x1c'))){_0x510698[_0x40c7('0x49')][_0x40c7('0x5')][_0x40c7('0x3a')](_0x40c7('0x1c'));_0x4f391b=!![];}else{_0x510698['target'][_0x40c7('0x5')]['remove'](_0x40c7('0x1c'));_0x4f391b=![];}return;}}if(_0x510698[_0x40c7('0x49')][_0x40c7('0x8')](_0x40c7('0x3f'))===_0x40c7('0x20')||_0x510698['target'][_0x40c7('0x8')]('data-value')===_0x40c7('0x6')){const _0x2d59cf=_0x363daa(_0x5c8cc7);if(_0x510698['target'][_0x40c7('0x8')](_0x40c7('0x3f'))===_0x40c7('0x20'))_0x5c8cc7[_0x40c7('0x14')]=_0x2d59cf>0x0?_0x5c8cc7[_0x40c7('0x12')][_0x40c7('0x11')](_0x5c8cc7[_0x40c7('0x12')][_0x2d59cf-0x1],''):_0x5c8cc7[_0x40c7('0x12')][_0x40c7('0x48')]('')[_0x40c7('0x2c')](0x0,_0x5c8cc7[_0x40c7('0x12')][_0x40c7('0x50')]-0x1)[_0x40c7('0x2e')]('');else{_0x5c8cc7[_0x40c7('0x14')]=_0x2d59cf>0x0?_0x5c8cc7[_0x40c7('0x12')][_0x40c7('0x11')](_0x5c8cc7[_0x40c7('0x12')][_0x2d59cf],''):_0x5c8cc7[_0x40c7('0x12')][_0x40c7('0x48')]('')[_0x40c7('0x2c')](0x0,_0x5c8cc7[_0x40c7('0x12')][_0x40c7('0x50')])[_0x40c7('0x2e')]('');}}else if(_0x5d76a4&&!_0x4f391b||!_0x5d76a4&&_0x4f391b){_0x5c8cc7['innerHTML']+=_0x510698[_0x40c7('0x49')]['getAttribute']('data-value')[_0x40c7('0x53')]();}else{_0x5c8cc7['innerHTML']+=_0x510698[_0x40c7('0x49')][_0x40c7('0x8')](_0x40c7('0x3f'));}_0x510698[_0x40c7('0x49')]['classList'][_0x40c7('0x3a')](_0x40c7('0x1d'));setTimeout(()=>_0x510698['target'][_0x40c7('0x5')]['remove'](_0x40c7('0x1d')),0x1f4);}});
+const h1 = document.createElement('h1');
+h1.innerHTML = 'Virtual Keyboard <br> to change lang use Ctrl+Alt';
+document.body.append(h1);
+const textarea = document.createElement('textarea');
+textarea.id = 'textarea';
+textarea.readOnly = 'true';
+document.body.append(textarea);
+const div = document.createElement('div');
+div.className = 'keyboard';
+document.body.append(div);
+let keyboardLang = localStorage.getItem('lang') !== null ? localStorage.getItem('lang') : (localStorage.setItem('lang', 'en'), 'en');
+let isCaps = false;
+
+let isShift = false;
+const keyboardLabelsEn = ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'Backspace',
+  'Tab', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '[', ']', 'Delete',
+  'CapsLock', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', "'", '\\', 'Enter',
+  'Shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/', '&#9650;', 'Shift',
+  'Ctrl', 'Win', 'Alt', 'Space', 'Alt', '&#9668;', '&#9660;', '&#9658;', 'Ctrl'];
+const keyboardLabelsRu = ['ё', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'Backspace',
+  'Tab', 'й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ъ', 'Delete',
+  'CapsLock', 'ф', 'ы', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э', '\\', 'Enter',
+  'Shift', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', '.', '&#9650;', 'Shift',
+  'Ctrl', 'Win', 'Alt', 'Space', 'Alt', '&#9668;', '&#9660;', '&#9658;', 'Ctrl'];
+const keyboardValuesEn = ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'Backspace',
+  '\t', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '[', ']', 'Del',
+  'CapsLock', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', "'", '\\', '\n',
+  'Shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/', '&#9650;', 'Shift',
+  'ControlLeft', '', 'AltLeft', ' ', 'AltRight', '&#9668;', '&#9660;', '&#9658;', 'ControlRight'];
+const keyboardValuesRu = ['ё', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'Backspace',
+  '\t', 'й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ъ', 'Del',
+  'CapsLock', 'ф', 'ы', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э', '\\', '\n',
+  'Shift', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', '.', '&#9650;', 'Shift',
+  'ControlLeft', '', 'AltLeft', ' ', 'AltRight', '&#9668;', '&#9660;', '&#9658;', 'ControlRight'];
+const pressed = new Set();
+function clean() {
+  for (const item of pressed) { pressed.delete(item); }
+}
+
+// /Init
+function init(codes, values) {
+  let index = 0;
+  for (const element of codes) {
+    const key = document.createElement('button');
+    key.className = 'key';
+    key.innerHTML = element;
+    if (element === 'Backspace' || element === 'Tab' || element === 'Enter' || element === 'CapsLock' || element === 'Delete' || element === 'Space') {
+      key.classList.add('special');
+    }
+    if (!key.classList.contains('special')) {
+      switch (index) {
+        case 0: key.id = 'backquote'; break;
+        case 1:
+        case 2:
+        case 3:
+        case 4:
+        case 5:
+        case 6:
+        case 7:
+        case 8:
+        case 9:
+        case 10: key.id = `digit${keyboardLabelsEn[index]}`; break;
+        case 11: key.id = 'minus'; break;
+        case 12: key.id = 'equal'; break;
+        case 25: key.id = 'bracketleft'; break;
+        case 26: key.id = 'bracketright'; break;
+        case 38: key.id = 'semicolon'; break;
+        case 39: key.id = 'quote'; break;
+        case 40: key.id = 'backslash'; break;
+        case 42: key.id = 'shiftleft'; break;
+        case 50: key.id = 'comma'; break;
+        case 51: key.id = 'period'; break;
+        case 52: key.id = 'slash'; break;
+        case 53: key.id = 'arrowup'; break;
+        case 54: key.id = 'shiftright'; break;
+        case 55: key.id = 'controlleft'; break;
+        case 56: key.id = 'metaleft'; break;
+        case 57: key.id = 'altleft'; break;
+        case 59: key.id = 'altright'; break;
+        case 60: key.id = 'arrowleft'; break;
+        case 61: key.id = 'arrowdown'; break;
+        case 62: key.id = 'arrowright'; break;
+        case 63: key.id = 'controlright'; break;
+        default: key.id = `key${keyboardLabelsEn[index]}`;
+      }
+    } else key.id = keyboardLabelsEn[index].toLowerCase();
+    if (index === 14 || index === 28 || index === 42 || index === 55) {
+      const lineFix = document.createElement('div');
+      lineFix.className = 'clearfix';
+      div.appendChild(lineFix);
+    }
+    key.setAttribute('data-value', values[index]);
+    div.appendChild(key);
+    index++;
+  }
+}
+function changeLang() {
+  if ((pressed.has('ControlLeft') && pressed.has('AltLeft')) || (pressed.has('ControlRight') && pressed.has('AltRight'))) {
+    clean();
+    document.querySelector('.keyboard').innerHTML = '';
+    if (keyboardLang === 'en') {
+      init(keyboardLabelsRu, keyboardValuesRu);
+      localStorage.setItem('lang', 'ru');
+      keyboardLang = localStorage.getItem('lang');
+    } else {
+      init(keyboardLabelsEn, keyboardValuesEn);
+      localStorage.setItem('lang', 'en');
+      keyboardLang = localStorage.getItem('lang');
+    }
+  }
+}
+function getCursorPosition(element) {
+  let position = 0;
+  element.focus();
+  if (element.selectionStart || element.selectionStart === '0') {
+    position = element.selectionStart;
+  }
+  return position;
+}
+if (localStorage.getItem('lang') !== 'ru') init(keyboardLabelsEn, keyboardValuesEn); else init(keyboardLabelsRu, keyboardValuesRu);
+
+document.addEventListener('keydown', (event) => {
+  if (event.keyCode === 8 || event.keyCode === 9 || event.keyCode === 18 || event.keyCode === 17 || event.keyCode === 46) {
+    event.preventDefault();
+  }
+  const keypr = document.getElementById(event.code.toLowerCase());
+  if (keypr === null) return;
+  if (event.code === 'ControlLeft' || event.code === 'ControlRight' || event.code === 'AltLeft' || event.code === 'AltRight') {
+    keypr.classList.add('activeKey');
+    setTimeout(() => keypr.classList.remove('activeKey'), 500);
+    pressed.add(event.code);
+    if (pressed.size > 2) { clean(); }
+    setTimeout(() => changeLang(), 500);
+    return;
+  }
+  if (event.code === 'CapsLock') {
+    if (event.repeat) return;
+    if (!keypr.classList.contains('active')) {
+      keypr.classList.add('active');
+      isCaps = true;
+    } else {
+      keypr.classList.remove('active');
+      isCaps = false;
+    }
+    return;
+  }
+  if (event.code === 'ShiftLeft' || event.code === 'ShiftRight') {
+    if (event.repeat) return;
+    if (!keypr.classList.contains('active')) {
+      keypr.classList.add('active');
+      isShift = true;
+    } else {
+      keypr.classList.remove('active');
+      isShift = false;
+    }
+    return;
+  }
+
+  keypr.classList.add('activeKey');
+  setTimeout(() => keypr.classList.remove('activeKey'), 500);
+  if (keypr.getAttribute('data-value') === 'Backspace') {
+    const cursorPos = getCursorPosition(textarea);
+    textarea.innerHTML = cursorPos > 0 ? textarea.value.replace(textarea.value[cursorPos - 1], '') : textarea.value.split('').splice(0, textarea.value.length - 1).join('');
+    return;
+  }
+  if (keypr.getAttribute('data-value') === 'Tab') {
+    textarea.innerHTML += '\t';
+    return;
+  }
+  if (keypr.getAttribute('data-value') === 'Del') {
+    const cursorPos = getCursorPosition(textarea);
+    textarea.innerHTML = cursorPos > 0 ? textarea.value.replace(textarea.value[cursorPos], '') : textarea.value.split('').splice(0, textarea.value.length).join('');
+    return;
+  }
+  if ((isCaps && !isShift) || (!isCaps && isShift)) textarea.innerHTML += keypr.getAttribute('data-value').toUpperCase();
+  else textarea.innerHTML += keypr.getAttribute('data-value');
+});
+
+
+document.addEventListener('mousedown', (event) => {
+  if (event.target.getAttribute('data-value') === 'ControlLeft' || event.target.getAttribute('data-value') === 'ControlRight' || event.target.getAttribute('data-value') === 'AltLeft' || event.target.getAttribute('data-value') === 'AltRight') {
+    pressed.add(event.target.getAttribute('data-value'));
+    if (pressed.size > 2) { clean(); }
+    changeLang();
+    isCaps = false;
+    return;
+  }
+  if (event.target.classList.contains('key')) {
+    if (event.target.getAttribute('data-value') === 'CapsLock') {
+      if (!event.target.classList.contains('active')) {
+        event.target.classList.add('active');
+        isCaps = true;
+      } else {
+        event.target.classList.remove('active');
+        isCaps = false;
+      }
+      return;
+    }
+    if (event.target.classList.contains('key')) {
+      if (event.target.getAttribute('data-value') === 'Shift') {
+        if (!event.target.classList.contains('active')) {
+          event.target.classList.add('active');
+          isShift = true;
+        } else {
+          event.target.classList.remove('active');
+          isShift = false;
+        }
+        return;
+      }
+    }
+    if (event.target.getAttribute('data-value') === 'Backspace' || event.target.getAttribute('data-value') === 'Del') {
+      const cursorPos = getCursorPosition(textarea);
+      if (event.target.getAttribute('data-value') === 'Backspace') textarea.innerHTML = cursorPos > 0 ? textarea.value.replace(textarea.value[cursorPos - 1], '') : textarea.value.split('').splice(0, textarea.value.length - 1).join('');
+      else { textarea.innerHTML = cursorPos > 0 ? textarea.value.replace(textarea.value[cursorPos], '') : textarea.value.split('').splice(0, textarea.value.length).join(''); }
+    } else if ((isCaps && !isShift) || (!isCaps && isShift)) {
+      textarea.innerHTML += event.target.getAttribute('data-value').toUpperCase();
+    } else { textarea.innerHTML += event.target.getAttribute('data-value'); }
+    event.target.classList.add('activeKey');
+    setTimeout(() => event.target.classList.remove('activeKey'), 500);
+  }
+});

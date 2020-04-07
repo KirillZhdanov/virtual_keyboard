@@ -74,9 +74,12 @@ function init(codes, values) {
         case 54: key.id = 'shiftright'; break;
         case 55: key.id = 'controlleft'; break;
         case 56: key.id = 'metaleft'; break;
+        case 57: key.id = 'altleft'; break;
+        case 59: key.id = 'altright'; break;
         case 60: key.id = 'arrowleft'; break;
         case 61: key.id = 'arrowdown'; break;
         case 62: key.id = 'arrowright'; break;
+        case 63: key.id = 'controlright'; break;
         default: key.id = `key${keyboardLabelsEn[index]}`;
       }
     } else key.id = keyboardLabelsEn[index].toLowerCase();
@@ -107,12 +110,7 @@ function changeLang() {
 }
 function getCursorPosition(el) {
   let CaretPos = 0;
-  if (document.selection) {
-    el.focus();
-    const selectionRange = document.selection.createRange();
-    selectionRange.moveStart('character', -el.value.length);
-    CaretPos = selectionRange.text.length;
-  } else if (el.selectionStart || el.selectionStart === '0') {
+  if (el.selectionStart || el.selectionStart === '0') {
     CaretPos = el.selectionStart;
   }
   return CaretPos;
@@ -120,11 +118,16 @@ function getCursorPosition(el) {
 if (localStorage.getItem('lang') !== 'ru') init(keyboardLabelsEn, keyboardValuesEn); else init(keyboardLabelsRu, keyboardValuesRu);
 
 document.addEventListener('keydown', (event) => {
+  if (event.keyCode === 9 || event.keyCode === 18 || event.keyCode === 17) {
+    event.preventDefault();
+  }
   const keypr = document.getElementById(event.code.toLowerCase());
   if (event.code === 'ControlLeft' || event.code === 'ControlRight' || event.code === 'AltLeft' || event.code === 'AltRight') {
+    keypr.classList.add('activeKey');
+    setTimeout(() => keypr.classList.remove('activeKey'), 500);
     pressed.add(event.code);
     if (pressed.size > 2) { clean(); }
-    changeLang();
+    setTimeout(() => changeLang(), 500);
     return;
   }
   if (event.code === 'CapsLock') {
@@ -151,7 +154,8 @@ document.addEventListener('keydown', (event) => {
   keypr.classList.add('activeKey');
   setTimeout(() => keypr.classList.remove('activeKey'), 500);
   if (keypr.getAttribute('data-value') === 'Backspace') {
-    textarea.innerHTML = textarea.value.split('').splice(0, textarea.value.length - 1).join('');
+    const cursorPos = getCursorPosition(textarea);
+    textarea.innerHTML = cursorPos > 0 ? textarea.value.replace(textarea.value[cursorPos - 1], '') : textarea.value.split('').splice(0, textarea.value.length - 1).join('');
     return;
   }
   if (keypr.getAttribute('data-value') === 'Tab') {

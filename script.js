@@ -17,7 +17,17 @@ const keyboardLabelsEn = ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0',
   'CapsLock', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', "'", '\\', 'Enter',
   'Shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/', '&#9650;', 'Shift',
   'Ctrl', 'Win', 'Alt', 'Space', 'Alt', '&#9668;', '&#9660;', '&#9658;', 'Ctrl'];
+const keyboardLabelsEnWithSymbols = ['~', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '+', 'Backspace',
+  'Tab', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '[', ']', 'Delete',
+  'CapsLock', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', "'", '\\', 'Enter',
+  'Shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/', '&#9650;', 'Shift',
+  'Ctrl', 'Win', 'Alt', 'Space', 'Alt', '&#9668;', '&#9660;', '&#9658;', 'Ctrl'];
 const keyboardLabelsRu = ['ё', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'Backspace',
+  'Tab', 'й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ъ', 'Delete',
+  'CapsLock', 'ф', 'ы', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э', '\\', 'Enter',
+  'Shift', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', '.', '&#9650;', 'Shift',
+  'Ctrl', 'Win', 'Alt', 'Space', 'Alt', '&#9668;', '&#9660;', '&#9658;', 'Ctrl'];
+const keyboardLabelsRuWithSymbols = ['ё', '!', '"', '№', ';', '%', ':', '?', '*', '(', ')', '_', '+', 'Backspace',
   'Tab', 'й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ъ', 'Delete',
   'CapsLock', 'ф', 'ы', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э', '\\', 'Enter',
   'Shift', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', '.', '&#9650;', 'Shift',
@@ -27,88 +37,109 @@ const keyboardValuesEn = ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0',
   'CapsLock', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', "'", '\\', '\n',
   'Shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/', '&#9650;', 'Shift',
   'ControlLeft', '', 'AltLeft', ' ', 'AltRight', '&#9668;', '&#9660;', '&#9658;', 'ControlRight'];
+const keyboardValuesEnWithSymbols = ['~', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '+', 'Backspace',
+  '\t', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '[', ']', 'Del',
+  'CapsLock', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', "'", '\\', '\n',
+  'Shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/', '&#9650;', 'Shift',
+  'ControlLeft', '', 'AltLeft', ' ', 'AltRight', '&#9668;', '&#9660;', '&#9658;', 'ControlRight'];
 const keyboardValuesRu = ['ё', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'Backspace',
   '\t', 'й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ъ', 'Del',
   'CapsLock', 'ф', 'ы', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э', '\\', '\n',
   'Shift', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', '.', '&#9650;', 'Shift',
   'ControlLeft', '', 'AltLeft', ' ', 'AltRight', '&#9668;', '&#9660;', '&#9658;', 'ControlRight'];
+const keyboardValuesRuWithSymbols = ['ё', '!', '"', '№', ';', '%', ':', '?', '*', '(', ')', '_', '+', 'Backspace',
+  '\t', 'й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ъ', 'Del',
+  'CapsLock', 'ф', 'ы', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э', '\\', '\n',
+  'Shift', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', '.', '&#9650;', 'Shift',
+  'ControlLeft', '', 'AltLeft', ' ', 'AltRight', '&#9668;', '&#9660;', '&#9658;', 'ControlRight'];
 const pressed = new Set();
-function clean() {
-  for (const item of pressed) { pressed.delete(item); }
-}
+class Kbrd {
+  constructor(codes, values, ID) {
+    this.codes = codes;
+    this.values = values;
+    this.ID = ID;
+  }
 
-// /Init
-function init(codes, values) {
-  let index = 0;
-  for (const element of codes) {
-    const key = document.createElement('button');
-    key.className = 'key';
-    key.innerHTML = element;
-    if (element === 'Backspace' || element === 'Tab' || element === 'Enter' || element === 'CapsLock' || element === 'Delete' || element === 'Space') {
-      key.classList.add('special');
-    }
-    if (!key.classList.contains('special')) {
-      switch (index) {
-        case 0: key.id = 'backquote'; break;
-        case 1:
-        case 2:
-        case 3:
-        case 4:
-        case 5:
-        case 6:
-        case 7:
-        case 8:
-        case 9:
-        case 10: key.id = `digit${keyboardLabelsEn[index]}`; break;
-        case 11: key.id = 'minus'; break;
-        case 12: key.id = 'equal'; break;
-        case 25: key.id = 'bracketleft'; break;
-        case 26: key.id = 'bracketright'; break;
-        case 38: key.id = 'semicolon'; break;
-        case 39: key.id = 'quote'; break;
-        case 40: key.id = 'backslash'; break;
-        case 42: key.id = 'shiftleft'; break;
-        case 50: key.id = 'comma'; break;
-        case 51: key.id = 'period'; break;
-        case 52: key.id = 'slash'; break;
-        case 53: key.id = 'arrowup'; break;
-        case 54: key.id = 'shiftright'; break;
-        case 55: key.id = 'controlleft'; break;
-        case 56: key.id = 'metaleft'; break;
-        case 57: key.id = 'altleft'; break;
-        case 59: key.id = 'altright'; break;
-        case 60: key.id = 'arrowleft'; break;
-        case 61: key.id = 'arrowdown'; break;
-        case 62: key.id = 'arrowright'; break;
-        case 63: key.id = 'controlright'; break;
-        default: key.id = `key${keyboardLabelsEn[index]}`;
+  init(codes, values) {
+    let index = 0;
+    for (const element of codes) {
+      const key = document.createElement('button');
+      key.className = 'key';
+      key.innerHTML = element;
+      if (element === 'Backspace' || element === 'Tab' || element === 'Enter' || element === 'CapsLock' || element === 'Delete' || element === 'Space') {
+        key.classList.add('special');
       }
-    } else key.id = keyboardLabelsEn[index].toLowerCase();
-    if (index === 14 || index === 28 || index === 42 || index === 55) {
-      const lineFix = document.createElement('div');
-      lineFix.className = 'clearfix';
-      div.appendChild(lineFix);
+      if (!key.classList.contains('special')) {
+        switch (index) {
+          case 0: key.id = 'backquote'; break;
+          case 1:
+          case 2:
+          case 3:
+          case 4:
+          case 5:
+          case 6:
+          case 7:
+          case 8:
+          case 9:
+          case 10: key.id = `digit${this.ID[index]}`; break;
+          case 11: key.id = 'minus'; break;
+          case 12: key.id = 'equal'; break;
+          case 25: key.id = 'bracketleft'; break;
+          case 26: key.id = 'bracketright'; break;
+          case 38: key.id = 'semicolon'; break;
+          case 39: key.id = 'quote'; break;
+          case 40: key.id = 'backslash'; break;
+          case 42: key.id = 'shiftleft'; break;
+          case 50: key.id = 'comma'; break;
+          case 51: key.id = 'period'; break;
+          case 52: key.id = 'slash'; break;
+          case 53: key.id = 'arrowup'; break;
+          case 54: key.id = 'shiftright'; break;
+          case 55: key.id = 'controlleft'; break;
+          case 56: key.id = 'metaleft'; break;
+          case 57: key.id = 'altleft'; break;
+          case 59: key.id = 'altright'; break;
+          case 60: key.id = 'arrowleft'; break;
+          case 61: key.id = 'arrowdown'; break;
+          case 62: key.id = 'arrowright'; break;
+          case 63: key.id = 'controlright'; break;
+          default: key.id = `key${this.ID[index]}`;
+        }
+      } else key.id = this.ID[index].toLowerCase();
+      if (index === 14 || index === 28 || index === 42 || index === 55) {
+        const lineFix = document.createElement('div');
+        lineFix.className = 'clearfix';
+        div.appendChild(lineFix);
+      }
+      key.setAttribute('data-value', values[index]);
+      div.appendChild(key);
+      index++;
     }
-    key.setAttribute('data-value', values[index]);
-    div.appendChild(key);
-    index++;
   }
 }
+function clean() {
+  for (const item of pressed) {
+    pressed.delete(item);
+  }
+}
+// Initialization
+const kbrd = new Kbrd(keyboardLabelsEn, keyboardValuesEn, keyboardLabelsEn);
+
 function changeLang() {
   if ((pressed.has('ControlLeft') && pressed.has('AltLeft')) || (pressed.has('ControlRight') && pressed.has('AltRight'))) {
     clean();
     document.querySelector('.keyboard').innerHTML = '';
+    keyboardLang = localStorage.getItem('lang');
     if (keyboardLang === 'en') {
-      init(keyboardLabelsRu, keyboardValuesRu);
+      kbrd.init(keyboardLabelsRu, keyboardValuesRu, keyboardLabelsEn);
       localStorage.setItem('lang', 'ru');
-      keyboardLang = localStorage.getItem('lang');
     } else {
-      init(keyboardLabelsEn, keyboardValuesEn);
+      kbrd.init(keyboardLabelsEn, keyboardValuesEn, keyboardLabelsEn);
       localStorage.setItem('lang', 'en');
-      keyboardLang = localStorage.getItem('lang');
     }
   }
 }
+
 function getCursorPosition(element) {
   let position = 0;
   element.focus();
@@ -117,7 +148,13 @@ function getCursorPosition(element) {
   }
   return position;
 }
-if (localStorage.getItem('lang') !== 'ru') init(keyboardLabelsEn, keyboardValuesEn); else init(keyboardLabelsRu, keyboardValuesRu);
+
+
+if (localStorage.getItem('lang') !== 'ru') {
+  kbrd.init(keyboardLabelsEn, keyboardValuesEn, keyboardLabelsEn);
+} else {
+  kbrd.init(keyboardLabelsRu, keyboardValuesRu, keyboardLabelsEn);
+}
 
 document.addEventListener('keydown', (event) => {
   if (event.keyCode === 8 || event.keyCode === 9 || event.keyCode === 18 || event.keyCode === 17 || event.keyCode === 46) {
@@ -144,8 +181,8 @@ document.addEventListener('keydown', (event) => {
     }
     return;
   }
+  
   if (event.code === 'ShiftLeft' || event.code === 'ShiftRight') {
-    if (event.repeat) return;
     if (!keypr.classList.contains('active')) {
       keypr.classList.add('active');
       isShift = true;
@@ -153,6 +190,27 @@ document.addEventListener('keydown', (event) => {
       keypr.classList.remove('active');
       isShift = false;
     }
+    setTimeout(() => {
+      if (event.repeat) {
+        isShift = true;
+        document.querySelector('.keyboard').innerHTML = '';
+        if (localStorage.getItem('lang') === 'en') {
+          kbrd.init(keyboardLabelsEnWithSymbols, keyboardValuesEnWithSymbols);
+        } else {
+          kbrd.init(keyboardLabelsRuWithSymbols, keyboardValuesRuWithSymbols);
+        }
+        return;
+      }
+      if (!event.repeat) {
+        isShift = false;
+        document.querySelector('.keyboard').innerHTML = '';
+        if (localStorage.getItem('lang') === 'en') {
+          kbrd.init(keyboardLabelsEn, keyboardValuesEn);
+        } else {
+          kbrd.init(keyboardLabelsRu, keyboardValuesRu);
+        }
+      }
+    }, 500);
     return;
   }
 
@@ -196,16 +254,34 @@ document.addEventListener('mousedown', (event) => {
       }
       return;
     }
-    if (event.target.classList.contains('key')) {
-      if (event.target.getAttribute('data-value') === 'Shift') {
-        if (!event.target.classList.contains('active')) {
-          event.target.classList.add('active');
-          isShift = true;
-        } else {
-          event.target.classList.remove('active');
-          isShift = false;
+
+    if (event.target.getAttribute('data-value') === 'Shift') {
+      {
+        if (event.target.classList.contains('key')) {
+          if (!event.target.classList.contains('active')) {
+            event.target.classList.add('active');
+            isShift = true;
+          } else {
+            event.target.classList.remove('active');
+            isShift = false;
+          }
+          document.querySelector('.keyboard').innerHTML = '';
+          if (localStorage.getItem('lang') === 'en') {
+            kbrd.init(keyboardLabelsEnWithSymbols, keyboardValuesEnWithSymbols);
+          } else {
+            kbrd.init(keyboardLabelsRuWithSymbols, keyboardValuesRuWithSymbols);
+          }
+
+          setTimeout(() => {
+            document.querySelector('.keyboard').innerHTML = '';
+            if (localStorage.getItem('lang') === 'en') {
+              kbrd.init(keyboardLabelsEn, keyboardValuesEn);
+            } else {
+              kbrd.init(keyboardLabelsRu, keyboardValuesRu);
+            }
+          }, 2000);
+          return;
         }
-        return;
       }
     }
     if (event.target.getAttribute('data-value') === 'Backspace' || event.target.getAttribute('data-value') === 'Del') {

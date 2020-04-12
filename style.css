@@ -34,6 +34,7 @@ textarea{
 .activeKey{
     border-radius: 80%;
     color: #4a494d;
+    transition: 0.5s linear;
     background-color: rgb(126, 184, 241);  
 }
 .active{
